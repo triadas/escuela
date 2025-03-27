@@ -13,7 +13,7 @@ def get_dataset():
   # X: samples * inputs
   # y: samples * outputs
 
-  data = pd.read_csv("datos_de_amoniaco.csv")
+  data = pd.read_csv("sorted_data.csv")
   data=data[data["GL"]==0]
   X=data[["Temperature","Pressure"]].to_numpy()
   y=data[["Thermal_conductivity"]].to_numpy() #,"GL"
@@ -133,24 +133,34 @@ def normalize_data_old_range(X, minsX, maxsX):
   for j in range(0,X.shape[1]):
     for i in range(0,X.shape[0]):
       nX[i,j]=(X[i,j]-minsX[j])/(maxsX[j]-minsX[j])*0.9+0.1
-  nX = nX[np.argsort(nX[:, 0])]
   return nX
 
 cmap = plt.get_cmap('tab10') 
 i = 0
-for P in 1,5,10,5000,10000:
+for P in [1, 5, 10, 5000, 10000]:  # Исправлен синтаксис списка
   try:
-    i=i+1
-    Xa,yn=get_data_at_P(P)
-    Xn=normalize_data_old_range(Xa,minsX,maxsX)
-    new_y_at_P=model.predict(Xn)
+    i += 1
+    Xa, yn = get_data_at_P(P)
+
+    # Сортировка перед нормализацией
+    Xa = Xa[np.argsort(Xa[:, 0])]
+    Xn = normalize_data_old_range(Xa, minsX, maxsX)
+
+    # Предсказание модели
+    new_y_at_P = model.predict(Xn)
     new_y_at_P = denormalize_data(new_y_at_P, minsy, maxsy)
-    plt.figure(i)
-    plt.title("P = %d" %P)
-    plt.plot(Xa[:,0],yn[:,0],c=cmap(i*2-4),label="exp., P = %d" %P);
-    plt.plot(Xa[:,0],new_y_at_P[:,0],c=cmap(i*2-3),label="model, P = %d"% P);
+
+    # График
+    plt.figure(figsize=(6, 4))
+    plt.title(f"P = {P}")
+    
+    plt.plot(Xa[:, 0], yn[:, 0], c=cmap(i / 10), label=f"exp., P = {P}")  
+    plt.plot(Xa[:, 0], new_y_at_P[:, 0], c=cmap(i / 10 + 0.1), label=f"model, P = {P}")
+
     plt.ylabel("Density, kg/m^3")
     plt.xlabel("Temperature, K")
+    plt.legend()
+    plt.show()  # Теперь графики отображаются корректно
+
   except Exception as e:
-    print(f"Ошибка {e}")
-    continue
+    print(f"Ошибка при обработке P = {P}: {e}")
