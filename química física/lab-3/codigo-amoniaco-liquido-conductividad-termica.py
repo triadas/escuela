@@ -117,3 +117,40 @@ def mae(y_exp, y_pred):
 print('Conductividad térmica MAE ',mae(dny[:,0],new_y[:,0]))
 plt.axline((0,0),slope=1,color='r')
 plt.plot(dny,new_y,'.')
+
+def get_data_at_P(p):
+  # X: samples * inputs
+  # y: samples * outputs
+
+  data = pd.read_csv("datos_de_amoniaco.csv")
+  data=data[(data["GL"]==0) & (data["Pressure"]==p)]
+  X=data[["Temperature","Pressure"]].to_numpy()
+  y=data[["Thermal_conductivity"]].to_numpy() #,"GL"
+  return X, y
+
+def normalize_data_old_range(X, minsX, maxsX):
+  nX=X.copy();
+  for j in range(0,X.shape[1]):
+    for i in range(0,X.shape[0]):
+      nX[i,j]=(X[i,j]-minsX[j])/(maxsX[j]-minsX[j])*0.9+0.1
+  nX = nX[np.argsort(nX[:, 0])]
+  return nX
+
+cmap = plt.get_cmap('tab10') 
+i = 0
+for P in 1,5,10,5000,10000:
+  try:
+    i=i+1
+    Xa,yn=get_data_at_P(P)
+    Xn=normalize_data_old_range(Xa,minsX,maxsX)
+    new_y_at_P=model.predict(Xn)
+    new_y_at_P = denormalize_data(new_y_at_P, minsy, maxsy)
+    plt.figure(i)
+    plt.title("P = %d" %P)
+    plt.plot(Xa[:,0],yn[:,0],c=cmap(i*2-4),label="exp., P = %d" %P);
+    plt.plot(Xa[:,0],new_y_at_P[:,0],c=cmap(i*2-3),label="model, P = %d"% P);
+    plt.ylabel("Density, kg/m^3")
+    plt.xlabel("Temperature, K")
+  except Exception as e:
+    print(f"Ошибка {e}")
+    continue
