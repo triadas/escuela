@@ -116,11 +116,20 @@ namespace lesson1Task6
     {
         static void Main(string[] args)
         {
-            for(int i = 1; i <= 10; i++)
+            while (true)
             {
-                for (int j = 1; j <= 10; j++)
+                Console.WriteLine("Введите перевое число: ");
+                double a = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Введите второе число: ");
+                double b = Convert.ToDouble(Console.ReadLine());
+
+                if (a < 0 || a > 10 || b < 0 || b > 10)
+                    Console.WriteLine("Числа больше 10 или менльше 0");
+                else
                 {
-                    Console.WriteLine($"{i}*{j}={i*j}");
+                    Console.WriteLine($"Результат умножения: {a * b}");
+                    break;
                 }
             }
         }

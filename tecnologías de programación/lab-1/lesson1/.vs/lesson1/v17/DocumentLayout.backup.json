@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "lesson1",
+              "Title": "lesson1.csproj",
               "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-1\\lesson1\\lesson1\\lesson1.csproj",
               "RelativeDocumentMoniker": "lesson1\\lesson1.csproj",
               "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-1\\lesson1\\lesson1\\lesson1.csproj",
               "RelativeToolTip": "lesson1\\lesson1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-02T04:32:14.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T04:32:14.255Z"
             },
             {
               "$type": "Document",
@@ -39,9 +38,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-1\\lesson1\\lesson1\\Program.cs",
               "RelativeDocumentMoniker": "lesson1\\Program.cs",
-              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-1\\lesson1\\lesson1\\Program.cs*",
-              "RelativeToolTip": "lesson1\\Program.cs*",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAiwH0AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-1\\lesson1\\lesson1\\Program.cs",
+              "RelativeToolTip": "lesson1\\Program.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwIMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T04:16:06.547Z",
               "EditorCaption": ""
