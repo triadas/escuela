@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20174E37-2E58-49DD-A312-CBD30D6B4FFD}|lesson 3\\lesson 3.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\lesson 3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20174E37-2E58-49DD-A312-CBD30D6B4FFD}|lesson 3\\lesson 3.csproj|solutionrelative:lesson 3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20174E37-2E58-49DD-A312-CBD30D6B4FFD}|lesson 3\\lesson 3.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\lesson 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20174E37-2E58-49DD-A312-CBD30D6B4FFD}|lesson 3\\lesson 3.csproj|solutionrelative:lesson 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\lesson 3\\Person.cs",
+              "RelativeDocumentMoniker": "lesson 3\\Person.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\lesson 3\\Person.cs",
+              "RelativeToolTip": "lesson 3\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T11:03:23.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\lesson 3\\Program.cs",
+              "RelativeDocumentMoniker": "lesson 3\\Program.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-3\\lesson 3\\lesson 3\\Program.cs",
+              "RelativeToolTip": "lesson 3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T11:00:24.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
