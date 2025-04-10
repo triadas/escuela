@@ -1,0 +1,56 @@
+clc, clearvars, close all
+
+%1
+x = 2.5378;
+dx = 0.0001;
+y = 2.526;
+dy = 0.001;
+
+relErr1 = dx + dy;
+relErr2 = dx - dy;
+
+absErr1 = max(dx, dy);
+absErr2 = (dx + dy)/abs(y-x);
+
+%2
+x = 37.1;
+y = 9.87;
+z = 6.052;
+
+dx = 0.1; 
+dy =  0.05;
+dz = 0.02;
+
+absErrZ = -4*dz/z^5;
+absErr = (2*dx + 2*dy + absErrZ);
+relErr = absErr/(x^2*y*2/z^4);
+
+%3
+x = -3.59;
+y = 0.467;
+z = 563.2;
+
+dx = 0.01; 
+dy =  0.001;
+dz = 0.1;
+
+absErr = max((dx + cos(X)*dx),dx/(3*x^(2/3));
+relErr = absErr/(x*sin(y) + z*(1/3));
+
+%4
+A = [1 0 2 1; 0 1 1 0; 1 1 3 1];
+r = rank(A); 
+[m, n] = size(A);
+
+for i = 1:(m-r+1)
+    for j = 1:(n-r+1)
+        submatrix = A(i:(i+r-1), j:(j+r-1);
+        if det(submatrix) ~= 0
+            disp('Найдена невырожденная подматрица:');
+            disp(submatrix);
+        end
+    end
+end
+
+
+
