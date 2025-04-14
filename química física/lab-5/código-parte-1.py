@@ -85,7 +85,7 @@ for i in range(5):
         print("Состав жидкости 0: ")
         print(res.liquid0.zs)
         errX += abs(res.liquid0.zs[0]-x[i])
-        errY += abs(-x[i])
+        errY += abs(res.liquid0.zs[1]-y[i])
         if res.liquid_count>1:
             print("РАЗДЕЛЕНИЕ ЖИДКИХ ФАЗ")
             print("Состав жидкости 1: ")
