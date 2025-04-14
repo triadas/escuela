@@ -69,7 +69,10 @@ for i in range(5):
 	else:
 		print("Жидкость 0: ")
 		print(res.liquid0.zs)
+		errX += abs(res.liquid0.zs[0]-x[i])
+		errY += abs(res.liquid0.zs[1]-y[i])
 		if res.liquid_count > 1:
 			print("РАЗДЕЛЕНИЕ ЖИДКИХ ФАЗ")
 			print("Жидкость 1: ")
 			print(res.liquid1.zs)
+print(f"абсолютная ошибка х = {errX/5}\nабсолютная ошибка y = {errY/5}");
