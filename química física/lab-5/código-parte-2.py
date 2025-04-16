@@ -56,20 +56,33 @@ y1_exp = [0.000549, 0.163989, 0.282233, 0.482205, 0.676384, 0.835673, 0.916131, 
 # Выбираются между x и y на диаграмме. На первый взгляд, между x1_exp и y1_exp
 zs = [0.1, 0.2, 0.7, 0.9, 0.97]
 
+x = [0.001, 0.25, 0.35, 0.35, 0.15]
+y = [0.000547846, 0.220553, 0.347114, 0.347114, 0.112823]
+errX = 0;
+errY = 0;
+
 for i in range(5):
-	res = flasher2.flash(T=myT[i], P=P, zs=[zs[i], 1-zs[i]])
-	print('Присутствует %s фаз(ы) при %f K и %f бар' %(res.phase_count, myT[i], P/1e5))
-	if res.VF == 0:
-		print("Только жидкость")
-	if res.VF > 0:
-		print("x: ")
-		print(res.gas.zs)
-	if res.VF == 1:  # Есть только пар
-		print("Только пар")
-	else:
-		print("Жидкость 0: ")
-		print(res.liquid0.zs)
-		if res.liquid_count > 1:
-			print("РАЗДЕЛЕНИЕ ЖИДКИХ ФАЗ")
-			print("Жидкость 1: ")
-			print(res.liquid1.zs)
+    res = flasher2.flash(T=myT[i], P=P, zs=[zs[i], 1-zs[i]])
+    print('Присутствует %s фаз(ы) при %f K и %f бар' %(res.phase_count, myT[i], P/1e5));
+    if res.VF == 0:
+        print("Только жидкость")
+    if res.VF > 0:
+        print("x: ")
+        print(res.gas.zs)
+    if res.VF == 1:  # Есть только пар
+        print("Только пар")
+    else:
+        print("Жидкость 0: ")
+        print(res.liquid0.zs); 
+    errX += abs(res.liquid0.zs[1]-x[i]);
+    
+    try:
+        errY += abs(res.gas.zs[1]-y[i])
+    except: 
+        errY += abs(-y[i])
+  
+    if res.liquid_count > 1:
+        print("РАЗДЕЛЕНИЕ ЖИДКИХ ФАЗ")
+        print("Жидкость 1: ")
+        print(res.liquid1.zs)
+print(f"абсолютная ошибка х = {errX/5}\nабсолютная ошибка y = {errY/5}");
