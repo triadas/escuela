@@ -11,8 +11,8 @@ x = (3 - y1.^3)/2;
 y = 3 - 2*x1.^3; 
 
 figure(1);
-plot(x,y1); hold on;
-plot(x1,y); title("Зависимости  y = y(x)"), xlabel('x'), ylabel('y'), grid on, xline(0,'k'), yline(0,'k'), xticks(-10:1:10), yticks(-10:1:10),
+plot(x,y1, 'm'); hold on;
+plot(x1,y, 'r'); title("Зависимости  y = y(x)"), xlabel('x'), ylabel('y'), grid on, xline(0,'k'), yline(0,'k'), xticks(-10:1:10), yticks(-10:1:10),
 xlim([-10 10]), ylim([-10 10]);
 
 x = fsolve(f,[1 1]);
@@ -123,11 +123,10 @@ for k = 1:maxIter
     % J * h = -f 
     h = -J(x) \ f(x);
     x = x + h;
-    fprintf("%4d     | %10.6f  %10.6f |  %e\n", k, x(1), x(2), norm(h));
 
     x1_plot(k) = x(1,1);
     x2_plot(k) = x(2,1);
-    h_pot(k) = norm(h);
+    h_plot(k) = norm(h);
 
     if norm(h, inf) < eps
         break;
@@ -135,9 +134,13 @@ for k = 1:maxIter
 end
 fprintf("\nРешение: x1 = %.6f, x2 = %.6f\n", x(1), x(2));
 
-plot(1:k, x1_plot, 'b'), hold on;
-plot(1:k, x2_plot, 'm')
-title('xi = xi(k)'), xlabel('k'), ylabel('x'), xline(0), yline(0), xticks(1:8), yticks(-5:(5+5)/60:5), legend('x1', 'x2'), grid on;
+subplot(1,2,1);
+plot(1:k, x1_plot, 'b', LineWidth = 2), hold on;
+plot(1:k, x2_plot, 'm', LineWidth = 2)
+title('xi = xi(k)'), xlabel('k'), ylabel('x'), xticks(1:8), yticks(-5:(5+5)/60:5), legend('x1', 'x2'), grid on;
 
+subplot(1,2,2);
+plot(1:k, h_plot, 'k', LineWidth = 1)
+title('h = h(k)'), xlabel('k'), ylabel('h'), xticks(1:8), yticks(-5:(5+5)/60:5), legend('h'), grid on;
 
 
