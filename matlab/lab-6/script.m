@@ -5,8 +5,8 @@ clc, clearvars, close all;
 
 f = @(x) [2*x(1) + x(2)^3 - 3; 2*x(1)^3 + x(2) - 3];
 
-y1 = linspace(-10,10, 100000);
-x1 = linspace(-10,10, 100000);
+y1 = linspace(-10,10, 1e5);
+x1 = linspace(-10,10, 1e5);
 x = (3 - y1.^3)/2;
 y = 3 - 2*x1.^3; 
 
