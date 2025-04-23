@@ -110,23 +110,34 @@ end
 %% номер 4 (решение методом ньютона)
 clc, clearvars, close all;
 
-syms x1 x2;
-f_sym = [((3 - x2)/2)^(1/3), (3 - 2*x1)^(1/3)];
-f = @(x) [(2*x(1)-x(2)^3); (2*x(1)^3 + x(2))];
-x0 = [1; 1];
-e = 1e-3;
+f = @(x) [2*x(1) + x(2)^3 - 3;
+          2*x(1)^3 + x(2) - 3];
+J = @(x) [2, 3*x(2)^2;
+          6*x(1)^2, 1];
 
+x = [0.1; 0.1];
+eps = 1e-6;
 
-A = jacobian(f_sym, [x1 x2]);
-B = f;
-H = x0;
+maxIter = 20;
+for k = 1:maxIter
+    % J * h = -f 
+    h = -J(x) \ f(x);
+    x = x + h;
+    fprintf("%4d     | %10.6f  %10.6f |  %e\n", k, x(1), x(2), norm(h));
 
+    x1_plot(k) = x(1,1);
+    x2_plot(k) = x(2,1);
+    h_pot(k) = norm(h);
 
-maxIter = 0;
-for i = 1:maxIter
-    H = double(subs(A, [x1, x2], H))
-    break;
+    if norm(h, inf) < eps
+        break;
+    end
 end
+fprintf("\nРешение: x1 = %.6f, x2 = %.6f\n", x(1), x(2));
+
+plot(1:k, x1_plot, 'b'), hold on;
+plot(1:k, x2_plot, 'm')
+title('xi = xi(k)'), xlabel('k'), ylabel('x'), xline(0), yline(0), xticks(1:8), yticks(-5:(5+5)/60:5), legend('x1', 'x2'), grid on;
 
 
 
