@@ -1,0 +1,82 @@
+% вариант 22
+
+%% номер 1 (Построение канонического полинома, используя определитель Вандермонда)
+
+clc, clearvars, close all;
+
+x_exp = [1  2  3  4  5  6  7  8]; 
+y_exp = [-32.47  14.82  49.33  -7.26  -45.89  28.64  3.71  -19.58];
+x_nodal = [2.87 3.39]; 
+
+W = vander(x_exp);
+d = det(W); % 1.25e+11
+a = inv(W)*y_exp';
+
+x  = linspace(1,8, 1e5);
+
+figure(1);
+plot(x, Pn(a, x), 'b'), hold on;
+plot(x_exp, y_exp, 'k*');
+plot(x_nodal, Pn(a, x_nodal), 'r*'), hold on;
+title('y = P_n(x)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
+
+%% номер 2 (Построение канонического полинома, используя определитель Вандермонда)
+%  номер 3 (Построие графика полученной полиномиальной зависимости, отметив на нём узловые точки и заданные точки)
+clc, clearvars, close all;
+
+x_exp = [1  2  3  4  5  6  7  8]; 
+y_exp = [-32.47  14.82  49.33  -7.26  -45.89  28.64  3.71  -19.58];
+x_nodal = [2.87 3.39]; 
+
+x  = linspace(1,8, 1e5);
+y = interp1(x_exp, y_exp, x, "spline");
+figure(2);
+plot(x, y, 'b'), hold on;
+plot(x_exp, y_exp, 'k*');
+plot(x_nodal, interp1(x_exp, y_exp, x_nodal, "spline"), 'r*'), hold on;
+title('y = P_n(x)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
+
+%% номер 4 (Построение канонического полинома, используя определитель Вандермонда)
+clc, clearvars, close all;
+
+x_exp = [1  2  3  4  5  6  7  8]; 
+y_exp = [-32.47  14.82  49.33  -7.26  -45.89  28.64  3.71  -19.58];
+x_nodal = [2.87 3.39]; 
+
+x  = linspace(1,8, 1e5);
+y = Lagr(x_exp, y_exp, x);
+figure(1);
+fplot(@Lagr, [1 8], 'b'), hold on;
+plot(x_exp, y_exp, 'k*');
+plot(x_nodal, Lagr(x_exp, y_exp, x_nodal), 'r*'), hold on;
+title('y = L_n(x)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
+
+
+
+
+%% а тут все функции
+function y = Pn(a, x)
+    n = length(a);
+
+    y = 0;
+    for i = 1:8
+        y = y + a(i) * x.^(n - i);
+    end
+end
+
+function L = Lagr(x_exp, y_exp, x)
+  n = length(x_exp) - 1;
+
+  L = 0; 
+  for j = 0:n
+    Bj = 1; 
+    for i = 0:n
+      if i ~= j
+        Bj = Bj * ( (x - x_exp(i+1)) / (x_exp(j+1) - x_exp(i+1)) );
+      end
+    end
+    L = L + Bj * y_exp(j+1);
+  end
+end
+
+
