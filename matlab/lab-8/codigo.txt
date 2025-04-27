@@ -1,0 +1,72 @@
+% вариант 22
+%% номер 1 ()
+clc, clearvars, close all;
+
+% (числа сгенерированы)
+x_exp = [0.1, 1.0, 1.8, 2.5, 3.6, 4.5, 5.2, 6.5, 8.0];
+y_exp = [-0.8, -0.6, -0.3, 0.0, 0.4, 0.7, 0.8, 0.5, -0.2];
+x_nodal = [2.87 3.39]; 
+
+
+f = 0;
+dMin = abs(max(y_exp) - min(y_exp));
+for i = 1:(length(y_exp) - 2)
+    y = diff(y_exp, i);
+    if (dMin > abs(min(max(y) - min(y))))
+        dMin = abs(min(max(y) - min(y)));
+        f = i;
+    end
+end
+
+fprintf('Оптимальна разность %d порядка, с отличием max и min в %f\n', f, dMin);
+disp(diff(y_exp, f));
+fprintf('Оптимальная степень полинома: %d\n', f);
+
+
+form_apr = spap2(length(x_exp)/2 - 1, f, x_exp, y_exp);
+
+x = linspace(min(x_exp), max(x_exp), 1e4);
+
+figure(1);
+plot(x, fnval(form_apr, x), 'r'), hold on;
+plot(x_exp, y_exp, 'k*');
+plot(x_nodal, fnval(form_apr, x_nodal), 'r*'), hold on;
+title('y = Apr_n(x) (approximation)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(min(x_exp) - 0.5:0.5:max(x_exp) + 0.5), yticks(min(y_exp) - 0.1:0.1:max(y_exp) + 0.1), legend('y = Apr(x)', 'exp', 'nodal'), xlim([(min(x_exp) - 0.5) (max(x_exp) + 0.5)]), ylim([(min(y_exp) - 0.1) (max(y_exp) + 0.1)])
+
+%% номер 2 
+clc, close all;
+x_exp = [0.1, 1.0, 1.8, 2.5, 3.6, 4.5, 5.2, 6.5, 8.0];
+y_exp = [-0.8, -0.6, -0.3, 0.0, 0.4, 0.7, 0.8, 0.5, -0.2];
+x_nodal = [2.87 3.39]; 
+
+
+form_apr = spap2(4, f, x_exp, y_exp);
+
+x = x_exp;
+err = fnval(form_apr, x_exp) - y_exp;
+
+figure(1);
+plot(x, err, 'k')
+title('y = Err(x) (error)'), xlabel('x'), ylabel('y'), yline(0), grid on;
+
+
+
+%%
+clc, clearvars, close all;
+x = linspace(0, 10, 20);           % 20 точек на отрезке [0,10]
+y = sin(x) + 0.1*randn(size(x));    % синус + небольшой шум
+
+degree = 3;                        % кубический сплайн
+num_knots = 10;                    % хотим 10 разбиений (узлов)
+
+sp = spap2(num_knots, degree, x, y);
+
+xx = linspace(0,10,100);
+yy = fnval(sp, xx);
+
+plot(x, y, 'o', xx, yy, '-');
+legend('Данные','Аппроксимация сплайном');
+grid on;
+
+
+
