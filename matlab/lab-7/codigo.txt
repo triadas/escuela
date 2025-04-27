@@ -55,28 +55,27 @@ plot(x_exp, y_exp, 'k*');
 plot(x_nodal, interp1(x_exp, y_exp, x_nodal, "spline"), 'r*'), hold on;
 title('y = P_n(x) (канонический полином ч/з polyfit)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
 
-figure(2);
-fplot(@Rn, [min(x_exp) max(x_exp)])
-title('y = P_n(x) (канонический полином ч/з polyfit)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
+% figure(2);
+% fplot(@Rn, [min(x_exp) max(x_exp)])
+% title('y = P_n(x) (канонический полином ч/з polyfit)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
 
-
-
-
-%% номер 4 
+%% номер n-1 (определение оптимальной степенип полинома)
 clc, clearvars, close all;
-
-x_exp = [1  2  3  4  5  6  7  8]; 
 y_exp = [-32.47  14.82  49.33  -7.26  -45.89  28.64  3.71  -19.58];
-x_nodal = [2.87 3.39]; 
 
-x  = linspace(1,8, 1e5);
+fl = 1;
+dMin = abs(max(y_exp) - min(y_exp));
+for i = 1:(length(y_exp) - 2)
+    y = diff(y_exp, i);
+    if (dMin > abs(min(max(y) - min(y))))
+        dMin = abs(min(max(y) - min(y)));
+        fl = i;
+    end
+end
 
-
-figure(2);
-plot(x, y, 'b'), hold on;
-plot(x_exp, y_exp, 'k*');
-plot(x_nodal, interp1(x_exp, y_exp, x_nodal, "spline"), 'r*'), hold on;
-title('y = P_n(x) (канонический полином ч/з polyfit)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
+fprintf('Оптимальна разность %d порядка, с отличием max и min в %f\n', fl, dMin);
+disp(diff(y_exp, fl));
+fprintf('Оптимальная степень полинома: %d\n', fl);
 
 
 
@@ -124,21 +123,3 @@ function R  = Rn(x)
 
     R = dirMax * A / fact;
 end
-
-
-%%
-clc, clearvars, close all;
-
-x_exp = [1  2  3  4  5  6  7  8]; 
-y_exp = [-32.47  14.82  49.33  -7.26  -45.89  28.64  3.71  -19.58];
-x_nodal = [2.87 3.39]; 
-
-x  = linspace(1,8, 1e5);
-y = Lagr(x_exp, y_exp, x);
-figure(1);
-fplot(@Lagr, [1 8], 'b'), hold on;
-plot(x_exp, y_exp, 'k*');
-plot(x_nodal, Lagr(x_exp, y_exp, x_nodal), 'r*'), hold on;
-title('y = L_n(x)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
-
-
