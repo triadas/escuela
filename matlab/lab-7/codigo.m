@@ -52,7 +52,7 @@ y = polyval(koefs, x);
 figure(1);
 plot(x, y, 'b'), hold on;
 plot(x_exp, y_exp, 'k*');
-plot(x_nodal, interp1(x_exp, y_exp, x_nodal, "spline"), 'r*'), hold on;
+plot(x_nodal, polyval(koefs, x_nodal), 'r*'), hold on;
 title('y = P_n(x) (канонический полином ч/з polyfit)'), xlabel('x'), ylabel('y'), yline(0), grid on, xticks(0:0.5:9), yticks(-100:10:50), legend('y = P_n(x)', 'exp', 'nodal'), xlim([0 9]), ylim([-100 60])
 
 % figure(2);
