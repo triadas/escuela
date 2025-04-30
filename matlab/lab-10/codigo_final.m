@@ -34,7 +34,7 @@ hold on;
 fplot(f, [min(x_exp) max(x_exp)], 'r');
 plot(x_h, F_h, 'm');
 plot(x_h2, F_h2, 'b--');
-title("Функции y = f(x) и интегралы с разными шагами");xlabel('x'); ylabel('y'); grid on; yline(0, 'k--'); xline(0, 'k--'); xlim([min(x_exp)-1 max(x_exp)+1]); ylim([min(y_exp)-10 max(y_exp)+10]); legend('y = f(x)', 'y = F(x) с шагом h', 'y = F(x) с шагом h/2'); xticks(min(x_exp) - 1:0.5:max(x_exp) + 1); yticks(-50:5:50);
+title("Функции y = f(x) и интегралы с разными шагами");xlabel('x'); ylabel('y'); grid on; yline(0, 'k--'); xline(0, 'k--'); xlim([min(x_exp)-1 max(x_exp)+1]); ylim([min(y_exp)-10 max(y_exp)+10]); legend('y = f(x)', 'y = F(x) с шагом h', 'y = F(x) с шагом h/2'); xticks(min(x_exp) - 1:0.5:max(x_exp) + 1);
 
 %% номер k
 clc; clearvars; close all;
@@ -59,7 +59,7 @@ plot(h, I, 'k');hold on;
 plot([0 1], [14.57479 14.57479], 'k--');
 title('Функция I = I(h)'); xlabel('h'); ylabel('Интеграл I'); grid on; legend('I = I(h)', 'I истинное');
 
-%% номер k+1
+% номер k+1
 clc; clearvars; close all;
 
 x_exp = [1 2 3 4 5 6 7 8];
@@ -116,7 +116,7 @@ F = @(x) integral(f, min(x_exp), x);
 figure(1)
 hold on;
 fplot(F, [min(x_exp) max(x_exp)], 'r');
-title("Функции y = F(x) встроенными функциями матлаб");xlabel('x'); ylabel('y'); grid on; yline(0, 'k--'); xline(0, 'k--'); xlim([min(x_exp)-1 max(x_exp)+1]); ylim([min(y_exp)-10 max(y_exp)+10]); legend('y = F(x)'); xticks(min(x_exp) - 1:0.5:max(x_exp) + 1);
+title("Функции y = F(x) встроенными функциями матлаб");xlabel('x'); ylabel('y'); grid on; yline(0, 'k--'); xline(0, 'k--'); xlim([min(x_exp)-1 max(x_exp)+1]); ylim([min(y_exp)-10 max(y_exp)+10]); legend('y = F(x) с шагом h'); xticks(min(x_exp) - 1:0.5:max(x_exp) + 1);
 
 %% номер k+4 (пример с сайта)
 clc, clearvars, close all;
