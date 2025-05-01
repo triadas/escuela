@@ -18,6 +18,7 @@ class Program
         
         string[] folders = path.Split(new[] { '/', '\\' }, StringSplitOptions.RemoveEmptyEntries);
 
+
         bool isUrl = path.StartsWith("http://") || path.StartsWith("ftp://");
         int startIndex = isUrl ? 1 : 0; //для URL пропускаем протокол
 

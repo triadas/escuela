@@ -1,0 +1,30 @@
+% вариант 22
+%% номер k+1 (Построить аппроксимационный полином с учётом
+%  весовых коэффициентов с использованием функции
+%  fminsearch; Оценить точность аппроксимации; Построить на одном графике полученные функций с
+%  вынесенными на них узловыми точками в виде звёздочек, разными цветами, добавив легенду.)
+
+clc, clearvars, close all;
+x_exp = [0.1, 1.0, 1.8, 2.5, 3.6, 4.5, 5.2, 6.5, 8.0];
+y_exp = [-0.8, -0.6, -0.3, 0.0, 0.4, 0.7, 0.8, 0.5, -0.2];
+x_nodal = [2.87 3.39]; 
+
+coefs = polyfit(x_exp, y_exp, 3);
+
+y = polyval(coefs, x_exp);
+f = @(x) polyval(coefs, x);
+[x, fval] = fminsearch(f, min(x_exp));
+err = sqrt(1/length(x_exp) * sum((y_exp - y).^2));
+err_rel = err/fval*100;
+fprintf('Абсолютная погрешность: %.4f\n', err);
+fprintf('Максимальная относительная погрешность: %.2f%%\n', err_rel);
+
+x_plt = linspace(min(x_exp), max(x_exp), 1e4);
+y_plt = polyval(coefs, x_plt);
+
+% третей степени
+figure(1), hold on;
+plot(x_plt, y_plt, 'k', LineWidth = 1), 
+plot(x_exp, y_exp, 'm*'), 
+plot(x_nodal, polyval(coefs, x_nodal), 'r*'),  yline(0, 'k--');
+title('y = f(x) Аппроксимация третьей (оптимальной) степени'), xlabel('x'), ylabel('y'), xlim([(min(x_exp) - 1) (max(x_exp) + 1)]), ylim([(min(y_exp) - 0.3) (max(y_exp) + 0.3)]), grid on, xticks(ceil(min(x_exp)) - 1:0.5:ceil(max(x_exp)) + 1), yticks(ceil(min(y_exp)) - 1:0.1:ceil(max(y_exp)) + 1), legend('approx', 'exp', 'nodal');
