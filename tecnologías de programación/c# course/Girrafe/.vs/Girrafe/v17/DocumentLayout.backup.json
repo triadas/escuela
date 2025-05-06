@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\girrafe\\girrafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|solutionrelative:girrafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\girrafe\\girrafe\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|solutionrelative:girrafe\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\girrafe\\girrafe\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|solutionrelative:girrafe\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\girrafe\\girrafe\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3A8F30-8196-4E52-8EEE-A9920DAFE0C5}|Girrafe\\Girrafe.csproj|solutionrelative:girrafe\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Movie.cs",
+              "RelativeDocumentMoniker": "Girrafe\\Movie.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Movie.cs",
+              "RelativeToolTip": "Girrafe\\Movie.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T22:00:29.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Student.cs",
+              "RelativeDocumentMoniker": "Girrafe\\Student.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Student.cs",
+              "RelativeToolTip": "Girrafe\\Student.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:58:42.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Book.cs",
+              "RelativeDocumentMoniker": "Girrafe\\Book.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Book.cs",
+              "RelativeToolTip": "Girrafe\\Book.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:40:41.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Program.cs",
+              "RelativeDocumentMoniker": "Girrafe\\Program.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\c# course\\Girrafe\\Girrafe\\Program.cs*",
+              "RelativeToolTip": "Girrafe\\Program.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:00:55.447Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

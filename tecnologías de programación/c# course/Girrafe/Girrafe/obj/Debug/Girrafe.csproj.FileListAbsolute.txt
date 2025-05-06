@@ -1,0 +1,7 @@
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\bin\Debug\Girrafe.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\bin\Debug\Girrafe.exe
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\bin\Debug\Girrafe.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\obj\Debug\Girrafe.csproj.AssemblyReference.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\obj\Debug\Girrafe.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\obj\Debug\Girrafe.exe
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\Girrafe\Girrafe\obj\Debug\Girrafe.pdb
