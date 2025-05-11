@@ -1,0 +1,17 @@
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1.1\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll

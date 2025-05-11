@@ -1,0 +1,17 @@
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\bin\Debug\net8.0-windows\bestWay.exe
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\bin\Debug\net8.0-windows\bestWay.deps.json
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\bin\Debug\net8.0-windows\bestWay.runtimeconfig.json
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\bin\Debug\net8.0-windows\bestWay.dll
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\bin\Debug\net8.0-windows\bestWay.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.MainForm.resources
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.AssemblyInfoInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.AssemblyInfo.cs
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.sourcelink.json
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.dll
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\refint\bestWay.dll
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\bestWay.genruntimeconfig.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\windows forms\intridaction_into_WinForms\bestWay\bestWay\obj\Debug\net8.0-windows\ref\bestWay.dll

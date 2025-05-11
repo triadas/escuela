@@ -1,0 +1,17 @@
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\bin\Debug\net8.0-windows\script.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\bin\Debug\net8.0-windows\script.deps.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\bin\Debug\net8.0-windows\script.runtimeconfig.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\bin\Debug\net8.0-windows\script.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\bin\Debug\net8.0-windows\script.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.MainForm.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.AssemblyInfoInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.AssemblyInfo.cs
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.sourcelink.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\refint\script.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.genruntimeconfig.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\ref\script.dll

@@ -1,0 +1,7 @@
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\bin\Debug\finalConsole.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\bin\Debug\finalConsole.exe
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\bin\Debug\finalConsole.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\obj\Debug\finalConsole.csproj.AssemblyReference.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\obj\Debug\finalConsole.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\obj\Debug\finalConsole.exe
+C:\Users\que mienten\Documents\GitHub\escuela\tecnologías de programación\c# course\finalPreparations\finalConsole\finalConsole\obj\Debug\finalConsole.pdb

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1.1\\script\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51894DB2-B509-4D8B-875B-60BAD4618529}|script\\script.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\sistemas operativos\\lab-1.1\\script\\script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51894DB2-B509-4D8B-875B-60BAD4618529}|script\\script.csproj|solutionrelative:script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51894DB2-B509-4D8B-875B-60BAD4618529}|script\\script.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\sistemas operativos\\lab-1.1\\script\\script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51894DB2-B509-4D8B-875B-60BAD4618529}|script\\script.csproj|solutionrelative:script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1.1\\script\\script\\Form1.cs",
+              "RelativeDocumentMoniker": "script\\Form1.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1.1\\script\\script\\Form1.cs",
+              "RelativeToolTip": "script\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:55:00.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1.1\\script\\script\\Form1.cs",
+              "RelativeDocumentMoniker": "script\\Form1.cs",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1.1\\script\\script\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "script\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:48:30.163Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
