@@ -14,7 +14,7 @@ namespace script
             try
             {
                 double number = Convert.ToDouble(enterNumberValue.Text.Replace('.', ','));
-                MessageBox.Show(number.ToString());
+                MessageBox.Show(number.ToString(), "Вывод:");
             }
             catch (FormatException) 
             {
@@ -22,7 +22,7 @@ namespace script
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Ошибка:");
             }
 
         }

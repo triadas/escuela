@@ -1,0 +1,17 @@
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\bin\Debug\net8.0-windows\finalWork.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\bin\Debug\net8.0-windows\finalWork.deps.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\bin\Debug\net8.0-windows\finalWork.runtimeconfig.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\bin\Debug\net8.0-windows\finalWork.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\bin\Debug\net8.0-windows\finalWork.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.MainForm.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.AssemblyInfoInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.AssemblyInfo.cs
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.sourcelink.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\refint\finalWork.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\finalWork.genruntimeconfig.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\finalWork\finalWork\obj\Debug\net8.0-windows\ref\finalWork.dll

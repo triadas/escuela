@@ -44,12 +44,14 @@
             // 
             // ShowValue
             // 
+            ShowValue.BackColor = Color.White;
+            ShowValue.Font = new Font("Arial", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             ShowValue.Location = new Point(176, 131);
             ShowValue.Name = "ShowValue";
             ShowValue.Size = new Size(102, 46);
             ShowValue.TabIndex = 1;
             ShowValue.Text = "нажми на меня";
-            ShowValue.UseVisualStyleBackColor = true;
+            ShowValue.UseVisualStyleBackColor = false;
             ShowValue.Click += ShowValue_Click;
             // 
             // enterNumberValue
@@ -63,12 +65,13 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(416, 250);
             Controls.Add(enterNumberValue);
             Controls.Add(ShowValue);
             Controls.Add(enterNumberText);
             Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "MainForm";
             Text = "MainForm";
             ResumeLayout(false);

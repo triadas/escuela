@@ -15,3 +15,4 @@ C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\s
 C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.pdb
 C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.genruntimeconfig.cache
 C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\ref\script.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-1\script\script\obj\Debug\net8.0-windows\script.Properties.Resources.resources

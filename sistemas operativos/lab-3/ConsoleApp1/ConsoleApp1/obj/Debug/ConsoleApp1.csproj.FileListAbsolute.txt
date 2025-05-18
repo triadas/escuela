@@ -1,0 +1,7 @@
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-3\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

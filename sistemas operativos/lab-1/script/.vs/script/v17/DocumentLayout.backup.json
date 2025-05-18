@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{22341781-D421-4289-A0C6-E90257128313}|script\\script.csproj|solutionrelative:script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22341781-D421-4289-A0C6-E90257128313}|script\\script.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\sistemas operativos\\lab-1\\script\\script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{22341781-D421-4289-A0C6-E90257128313}|script\\script.csproj|C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{22341781-D421-4289-A0C6-E90257128313}|script\\script.csproj|solutionrelative:script\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,9 +26,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\Form1.cs",
               "RelativeDocumentMoniker": "script\\Form1.cs",
-              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\Form1.cs*",
-              "RelativeToolTip": "script\\Form1.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBIAAAAiAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\Form1.cs",
+              "RelativeToolTip": "script\\Form1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T18:27:07.741Z",
               "EditorCaption": ""
@@ -39,8 +39,8 @@
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\Form1.cs",
               "RelativeDocumentMoniker": "script\\Form1.cs",
-              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "script\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\sistemas operativos\\lab-1\\script\\script\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "script\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T18:20:06.853Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"

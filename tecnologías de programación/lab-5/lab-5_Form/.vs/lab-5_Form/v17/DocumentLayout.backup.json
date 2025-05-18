@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2D737263-4A30-44EE-AB82-2E6FD4B46642}|lab-5_Form\\lab-5_Form.csproj|solutionrelative:lab-5_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D737263-4A30-44EE-AB82-2E6FD4B46642}|lab-5_Form\\lab-5_Form.csproj|c:\\users\\que mienten\\documents\\github\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_form\\lab-5_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2D737263-4A30-44EE-AB82-2E6FD4B46642}|lab-5_Form\\lab-5_Form.csproj|C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2D737263-4A30-44EE-AB82-2E6FD4B46642}|lab-5_Form\\lab-5_Form.csproj|solutionrelative:lab-5_form\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,9 +26,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_Form\\Form1.cs",
               "RelativeDocumentMoniker": "lab-5_Form\\Form1.cs",
-              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_Form\\Form1.cs*",
-              "RelativeToolTip": "lab-5_Form\\Form1.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowBcAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_Form\\Form1.cs",
+              "RelativeToolTip": "lab-5_Form\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T11:18:19.188Z",
               "EditorCaption": ""
@@ -39,11 +39,10 @@
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_Form\\Form1.cs",
               "RelativeDocumentMoniker": "lab-5_Form\\Form1.cs",
-              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_Form\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "lab-5_Form\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\que mienten\\Documents\\GitHub\\escuela\\tecnolog\u00EDas de programaci\u00F3n\\lab-5\\lab-5_Form\\lab-5_Form\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "lab-5_Form\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T11:17:44.313Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-05-11T11:17:44.313Z"
             }
           ]
         }
