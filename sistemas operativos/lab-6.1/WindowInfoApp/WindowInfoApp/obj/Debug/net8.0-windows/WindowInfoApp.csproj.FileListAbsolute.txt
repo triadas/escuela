@@ -1,0 +1,17 @@
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\bin\Debug\net8.0-windows\WindowInfoApp.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\bin\Debug\net8.0-windows\WindowInfoApp.deps.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\bin\Debug\net8.0-windows\WindowInfoApp.runtimeconfig.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\bin\Debug\net8.0-windows\WindowInfoApp.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\bin\Debug\net8.0-windows\WindowInfoApp.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.Form1.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.AssemblyInfoInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.AssemblyInfo.cs
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.sourcelink.json
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\refint\WindowInfoApp.dll
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\WindowInfoApp.genruntimeconfig.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-6.1\WindowInfoApp\WindowInfoApp\obj\Debug\net8.0-windows\ref\WindowInfoApp.dll

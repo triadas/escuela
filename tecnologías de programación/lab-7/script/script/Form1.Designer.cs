@@ -33,14 +33,13 @@
             saveButton = new Button();
             loadButton = new Button();
             selectedFiles = new ListBox();
-            filePath = new TextBox();
             picture = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)picture).BeginInit();
             SuspendLayout();
             // 
             // browseButton
             // 
-            browseButton.Location = new Point(12, 258);
+            browseButton.Location = new Point(24, 252);
             browseButton.Name = "browseButton";
             browseButton.Size = new Size(75, 33);
             browseButton.TabIndex = 0;
@@ -50,7 +49,7 @@
             // 
             // selectButton
             // 
-            selectButton.Location = new Point(93, 258);
+            selectButton.Location = new Point(105, 252);
             selectButton.Name = "selectButton";
             selectButton.Size = new Size(80, 33);
             selectButton.TabIndex = 1;
@@ -80,26 +79,20 @@
             // 
             // selectedFiles
             // 
+            selectedFiles.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
             selectedFiles.FormattingEnabled = true;
-            selectedFiles.ItemHeight = 18;
-            selectedFiles.Location = new Point(141, 51);
+            selectedFiles.ItemHeight = 15;
+            selectedFiles.Location = new Point(24, 45);
             selectedFiles.Name = "selectedFiles";
-            selectedFiles.Size = new Size(135, 148);
+            selectedFiles.Size = new Size(147, 184);
             selectedFiles.TabIndex = 4;
-            // 
-            // filePath
-            // 
-            filePath.Location = new Point(22, 51);
-            filePath.Multiline = true;
-            filePath.Name = "filePath";
-            filePath.Size = new Size(100, 148);
-            filePath.TabIndex = 5;
             // 
             // picture
             // 
-            picture.Location = new Point(297, 51);
+            picture.Location = new Point(199, 45);
             picture.Name = "picture";
-            picture.Size = new Size(100, 148);
+            picture.Size = new Size(198, 184);
+            picture.SizeMode = PictureBoxSizeMode.Zoom;
             picture.TabIndex = 6;
             picture.TabStop = false;
             // 
@@ -109,7 +102,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(548, 303);
             Controls.Add(picture);
-            Controls.Add(filePath);
             Controls.Add(selectedFiles);
             Controls.Add(loadButton);
             Controls.Add(saveButton);
@@ -121,7 +113,6 @@
             Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)picture).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -131,7 +122,6 @@
         private Button saveButton;
         private Button loadButton;
         private ListBox selectedFiles;
-        private TextBox filePath;
         private PictureBox picture;
     }
 }

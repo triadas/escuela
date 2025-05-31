@@ -14,7 +14,7 @@ namespace script
             try
             {
                 double number = Convert.ToDouble(enterNumberValue.Text.Replace('.', ','));
-                MessageBox.Show(number.ToString(), "Вывод:");
+                MessageBox.Show("Вы ввели: " + number.ToString(), "Вывод:");
             }
             catch (FormatException) 
             {

@@ -19,7 +19,6 @@ namespace script
                 {
                     foreach (string file in openFileDialog.FileNames)
                     {
-                        // Добавление выбранных файлов в список
                         selectedFiles.Items.Add(file);
                     }
                 }
@@ -30,7 +29,6 @@ namespace script
         {
             if (selectedFiles.SelectedItem != null)
             {
-                // Отображение выбранного изображения в PictureBox
                 picture.Image = Image.FromFile(selectedFiles.SelectedItem.ToString());
             }
         }

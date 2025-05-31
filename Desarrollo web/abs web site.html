@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Минималистичный Красивый Сайт</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fefefe;
+      color: #222;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    header {
+      background: #fff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.8rem;
+      letter-spacing: 1.2px;
+      color: #111;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #555;
+      margin-left: 30px;
+      font-weight: 300;
+      transition: color 0.3s ease;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #000;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 80px auto 60px;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      font-weight: 300;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    main p {
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+      color: #555;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    button.cta {
+      padding: 15px 45px;
+      border: 2px solid #222;
+      background: transparent;
+      color: #222;
+      font-weight: 500;
+      font-size: 1.2rem;
+      border-radius: 40px;
+      cursor: pointer;
+      transition: background 0.3s ease, color 0.3s ease;
+      outline-offset: 4px;
+      outline-color: transparent;
+    }
+
+    button.cta:hover,
+    button.cta:focus {
+      background: #222;
+      color: #fff;
+      outline-color: #222;
+    }
+
+    section.features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .feature {
+      max-width: 280px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      padding: 30px 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+    }
+
+    .feature h3 {
+      font-weight: 500;
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      color: #111;
+    }
+
+    .feature p {
+      font-weight: 300;
+      color: #666;
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #fafafa;
+      border-top: 1px solid #ddd;
+      color: #888;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      section.features {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+      }
+
+      nav a {
+        margin-left: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Элегантный Сайт</h1>
+    <nav>
+      <a href="#features">Преимущества</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Добро пожаловать на наш минималистичный сайт</h2>
+    <p>Сайт, где всё просто и красиво. Чистый дизайн, приятные шрифты и интуитивно понятный интерфейс помогут вам сосредоточиться на самом важном.</p>
+    <button class="cta" onclick="alert('Спасибо за внимание!')">Подробнее</button>
+
+    <section class="features" id="features">
+      <article class="feature">
+        <h3>Чистый дизайн</h3>
+        <p>Лаконичные цвета и много воздуха создают приятную атмосферу для любого контента.</p>
+      </article>
+      <article class="feature">
+        <h3>Адаптивность</h3>
+        <p>Любое устройство — от смартфона до монитора — отображает сайт идеально.</p>
+      </article>
+      <article class="feature">
+        <h3>Простая навигация</h3>
+        <p>Меню и ссылки организованы так, чтобы вы быстро и легко находили нужное.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Свяжитесь с нами: <a href="mailto:hello@minimal.ru" style="color:#222;text-decoration:none;">hello@minimal.ru</a></p>
+    <p>&copy; 2024 Элегантный Сайт. Все права защищены.</p>
+  </footer>
+</body>
+</html>
