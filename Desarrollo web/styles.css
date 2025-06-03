@@ -1,0 +1,61 @@
+:root{
+  --some-color:red;
+}
+h3{
+  color: blue;
+  font-style: monospace, arial;
+  font-family: "Sofia";
+}
+.red-color{
+  color: red;
+}
+p{
+  font-size: 16px;
+  font-style: monospace, arial;
+  background-color: gray;
+}
+.big-img{
+  width: 500px;
+}
+.green-border{
+  border-width: 10px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50%;
+}
+#green-background{
+  background-color: green;
+}
+.black-box{
+  color:white;
+  background-color: black;
+  padding: 20px;
+  border-width: 5px;
+  border-style: black;
+  text-align: center;
+  margin: -20px;
+}
+.white-box{
+  background-color: white;
+  border-width: 5px;
+  border-style: black;
+  padding: 60px;
+  text-align: center;
+}
+.gray-box{
+  background-color: gray;
+  border-width: 5px;
+  border-style: black;
+  padding: 20px;
+  text-align: center;
+  margin: -20px;
+}
+[type='radio']{
+  margin: 15px 0px;
+}
+.new-box{
+  text-align: center;
+  padding:30px;
+  background-color: var(--some-color, blue);
+  margin:20px;
+}

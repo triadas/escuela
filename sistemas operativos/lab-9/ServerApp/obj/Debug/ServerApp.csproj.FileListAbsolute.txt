@@ -1,0 +1,20 @@
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.ServerForm.resources
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.Properties.Resources.resources
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.GenerateResource.cache
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.exe
+C:\Users\kekic\Desktop\дипсик сетевой чат\ServerApp\obj\Debug\ServerApp.pdb
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.ServerForm.resources
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.Properties.Resources.resources
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.GenerateResource.cache
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.exe
+C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.pdb
