@@ -25,3 +25,13 @@ C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\Clien
 C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
 C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ClientApp\obj\Debug\ClientApp.exe
 C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ClientApp\obj\Debug\ClientApp.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.csproj.AssemblyReference.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ClientApp\obj\Debug\ClientApp.pdb

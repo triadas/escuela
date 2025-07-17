@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="website" content="some attempt to make site correctly">
+    <meta name="author" content="Sueno">
+    <meta name="keywords" content="learn html programming as calm boy">
+    <meta name="viewport" content="width=device-scale; initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="ss.css">
+  </head>
+  <body style="background-color:CadetBlue">
+
+  <div class="wrapper">
+    <img class="search-icon" src="data:imagesvg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSIPgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+    <input class="search" placeholder="Search" type="text" >
+    <img class="clear-icon" src="data:imagesvg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSIPgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6cU9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnL2c+Cjwvc3ZnPgo=" />
+  </div>
+
+    <header>
+      <h1>Cool Site</h1>
+      <nav style="background-color: #2271b1; color: #008a20">
+        <a href="#">главная</a>
+        <a href="#">о нас</a>
+        <a href="#">что то</a>
+        <a href="#">и что то ещё</a>
+      </nav>
+    </header>
+    <main>
+      <article class="">
+        <section>
+          <h2>Section 1</h2>
+          <p><b>These</b> <i>are</i> <big>big</big> and <small>small</small> text.</p>
+          <p>H<sub>2</sub> + O -> H<sub>2</sub>O</p>
+          <p>10<sup>2</sup> = 100</p>
+          <p style="color:red; background-color:blue">Tags and containers</p>
+          <hr>
+        </section>
+        <section>
+          <h2>Section 2</h2>
+          <a href="https://www.google.com/"; target="_blank">Google.com</a>
+          <hr>
+        </section>
+        <section>
+          <h2>Section 3</h2>
+          <img src="https://zharamedia.ru/upload/resize_cache/iblock/491/1280_960_1db3eb0789a964743f88c73153145718a/lsd0bw9vuisber7syjlsout6gu9uipw6.jpg" alt="Милана стар" width="300">
+          <hr>
+        </section>
+        <section>
+          <h2>Section 4</h2>
+          <video src="vds/fun cat.mp4" autoplay poster="ims/dog.jpg" loop controls width="300">
+            <p>Тут должно было быть видео с котом</p>
+          </video>
+          <hr>
+        </section>
+        <section>
+          <h2>Section 5</h2>
+          <iframe width="300" height="315" src="https://www.youtube.com/embed/kxPCFljwJws?si=94izEd8gcmCo6oi5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Тут должны было быть видео с динозавром</iframe>
+        </section>
+        <section>
+          <h2>Section 6</h2>
+          <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ul>
+          <br>
+          <ol type="1">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ol>
+          <br>
+          <ol type="A">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ol>
+          <br>
+          <ol type="a">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ol>
+          <br>
+          <ol type="I">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ol>
+          <br>
+          <ol type="i">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+          </ol>
+          <hr>
+        </section>
+        <section>
+          <table>
+            <thead>
+              <caption>Некая таблица</caption>
+              <tr>
+                <th>#1</th>
+                <th>#1</th>
+                <th>#1</th>
+                <th>#1</th>
+                <th>#1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+              </tr>
+              <tr>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+              </tr>
+              <tr>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+              </tr>
+              <tr>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+                <td>el-1</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+        </section>
+        <section>
+          <h2>Section 7</h2>
+
+          <form>
+            <input type="text" name="" value="имя"><br>
+            <input type="password" name="" value=""><br>
+            <input type="date" name="" value="дата рождения"><br>
+            <input type="email" name="" value="почта"><br>
+            <input type="range" name="" value="диапозон"><br>
+            <input type="file" name="" value="загрузить"><br>
+            <input type="submit" name="" value="отправить"><br>
+            <input type="button" name="" value="кнопка"><br>
+          </form>
+          <br>
+          <iframe src="https://www.giraffeacademy.com/" width="1320" height="300" frameborder="0"></iframe>
+
+
+          <hr>
+        </section>
+        <hr>
+        <section>
+          <!--Start of Tawk.to Script-->
+          <script type="text/javascript">
+          var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+          (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/6872baff30142e190c053063/1j002kuhh';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+          })();
+          </script>
+          <!--End of Tawk.to Script-->
+        </section>
+        <section>
+          <aside class="">
+
+          </aside>
+        </section>
+        <hr>
+      </article>
+    </main>
+    <footer><p>&copy; 2025 Мой сайт. Все права защищены.</p></footer>
+  </body>
+</html>

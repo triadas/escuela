@@ -30,7 +30,7 @@ namespace WinFormsApp1
                 {
                     double[] arr = sr.ReadLine()
                                      .Replace('.', ',')
-                                     .Split(' ')
+                                     .Split(' ', '\t', '\n')
                                      .Select(s => Convert.ToDouble(s))
                                      .ToArray();
                     return arr;

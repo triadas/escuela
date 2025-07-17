@@ -18,3 +18,14 @@ C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\Serve
 C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
 C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.exe
 C:\Users\que mienten\Downloads\сетевой чат\сетевой чат\ServerApp\obj\Debug\ServerApp.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\bin\Debug\ServerApp.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\bin\Debug\ServerApp.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\bin\Debug\ServerApp.pdb
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.csproj.AssemblyReference.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.exe.config
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.ServerForm.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.Properties.Resources.resources
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.csproj.GenerateResource.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.csproj.CoreCompileInputs.cache
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.exe
+C:\Users\que mienten\Documents\GitHub\escuela\sistemas operativos\lab-9\ServerApp\obj\Debug\ServerApp.pdb
